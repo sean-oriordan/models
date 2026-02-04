@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-static-data-country-codes',
-  templateUrl: './country-codes.component.html',
-  styleUrls: ['./country-codes.component.css'],
+  selector: 'app-static-data-fund-central-bank-rates',
+  templateUrl: './fund-central-bank-rates.component.html',
+  styleUrls: ['./fund-central-bank-rates.component.css'],
 })
-export class StaticDataCountryCodesComponent implements OnInit {
+export class StaticDataFundCentralBankRatesComponent implements OnInit {
   parent = '';
   title = '';
   branch = '';

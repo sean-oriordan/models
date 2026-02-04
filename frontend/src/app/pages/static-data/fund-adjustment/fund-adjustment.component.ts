@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-static-data-holiday-calendar',
-  templateUrl: './holiday-calendar.component.html',
-  styleUrls: ['./holiday-calendar.component.css'],
+  selector: 'app-static-data-fund-adjustment',
+  templateUrl: './fund-adjustment.component.html',
+  styleUrls: ['./fund-adjustment.component.css'],
 })
-export class StaticDataHolidayCalendarComponent implements OnInit {
+export class StaticDataFundAdjustmentComponent implements OnInit {
   parent = '';
   title = '';
   branch = '';

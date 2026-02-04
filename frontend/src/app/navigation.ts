@@ -1,8 +1,20 @@
 import { Type } from '@angular/core';
+import { StaticDataClientsComponent } from './pages/static-data/clients/clients.component';
+import { StaticDataClientSecuritiesComponent } from './pages/static-data/client-securities/client-securities.component';
+import { StaticDataCountriesComponent } from './pages/static-data/countries/countries.component';
 import { StaticDataCurrencyCodesComponent } from './pages/static-data/currency-codes/currency-codes.component';
-import { StaticDataCountryCodesComponent } from './pages/static-data/country-codes/country-codes.component';
-import { StaticDataSecurityTypesComponent } from './pages/static-data/security-types/security-types.component';
-import { StaticDataHolidayCalendarComponent } from './pages/static-data/holiday-calendar/holiday-calendar.component';
+import { StaticDataFundsComponent } from './pages/static-data/funds/funds.component';
+import { StaticDataFundAdjustmentComponent } from './pages/static-data/fund-adjustment/fund-adjustment.component';
+import { StaticDataFundCentralBankRatesComponent } from './pages/static-data/fund-central-bank-rates/fund-central-bank-rates.component';
+import { StaticDataFundShareClassComponent } from './pages/static-data/fund-share-class/fund-share-class.component';
+import { StaticDataFundShareClassOngoingChargesComponent } from './pages/static-data/fund-share-class-ongoing-charges/fund-share-class-ongoing-charges.component';
+import { StaticDataFxRatesComponent } from './pages/static-data/fx-rates/fx-rates.component';
+import { StaticDataGlMappingsComponent } from './pages/static-data/gl-mappings/gl-mappings.component';
+import { StaticDataGroupExchangesComponent } from './pages/static-data/group-exchanges/group-exchanges.component';
+import { StaticDataHoldingsComponent } from './pages/static-data/holdings/holdings.component';
+import { StaticDataInflationRatesComponent } from './pages/static-data/inflation-rates/inflation-rates.component';
+import { StaticDataSecuritiesComponent } from './pages/static-data/securities/securities.component';
+import { StaticDataSecurityTypeMapComponent } from './pages/static-data/security-type-map/security-type-map.component';
 import { StewardshipEngagementComponent } from './pages/stewardship/engagement/engagement.component';
 import { StewardshipVotingComponent } from './pages/stewardship/voting/voting.component';
 import { StewardshipImpactComponent } from './pages/stewardship/impact/impact.component';
@@ -52,30 +64,22 @@ export const NAV: NavParent[] = [
     label: 'Maintain Static Data',
     slug: 'maintain-static-data',
     children: [
-      {
-        label: 'Currency Codes',
-        path: 'currency-codes',
-        title: 'Currency Codes',
-        component: StaticDataCurrencyCodesComponent,
-      },
-      {
-        label: 'Country Codes',
-        path: 'country-codes',
-        title: 'Country Codes',
-        component: StaticDataCountryCodesComponent,
-      },
-      {
-        label: 'Security Types',
-        path: 'security-types',
-        title: 'Security Types',
-        component: StaticDataSecurityTypesComponent,
-      },
-      {
-        label: 'Holiday Calendar',
-        path: 'holiday-calendar',
-        title: 'Holiday Calendar',
-        component: StaticDataHolidayCalendarComponent,
-      },
+      { label: 'Clients', path: 'clients', title: 'Clients', component: StaticDataClientsComponent },
+      { label: 'Client Securities', path: 'client-securities', title: 'Client Securities', component: StaticDataClientSecuritiesComponent },
+      { label: 'Countries', path: 'countries', title: 'Countries', component: StaticDataCountriesComponent },
+      { label: 'Currency Codes', path: 'currency-codes', title: 'Currency Codes', component: StaticDataCurrencyCodesComponent },
+      { label: 'Funds', path: 'funds', title: 'Funds', component: StaticDataFundsComponent },
+      { label: 'Fund Adjustment', path: 'fund-adjustment', title: 'Fund Adjustment', component: StaticDataFundAdjustmentComponent },
+      { label: 'Fund Central Bank Rates', path: 'fund-central-bank-rates', title: 'Fund Central Bank Rates', component: StaticDataFundCentralBankRatesComponent },
+      { label: 'Fund Share Class', path: 'fund-share-class', title: 'Fund Share Class', component: StaticDataFundShareClassComponent },
+      { label: 'Fund Share Class Ongoing Charges', path: 'fund-share-class-ongoing-charges', title: 'Fund Share Class Ongoing Charges', component: StaticDataFundShareClassOngoingChargesComponent },
+      { label: 'FX Rates', path: 'fx-rates', title: 'FX Rates', component: StaticDataFxRatesComponent },
+      { label: 'GL Mappings', path: 'gl-mappings', title: 'GL Mappings', component: StaticDataGlMappingsComponent },
+      { label: 'Group Exchanges', path: 'group-exchanges', title: 'Group Exchanges', component: StaticDataGroupExchangesComponent },
+      { label: 'Holdings', path: 'holdings', title: 'Holdings', component: StaticDataHoldingsComponent },
+      { label: 'Inflation Rates', path: 'inflation-rates', title: 'Inflation Rates', component: StaticDataInflationRatesComponent },
+      { label: 'Securities', path: 'securities', title: 'Securities', component: StaticDataSecuritiesComponent },
+      { label: 'Security Type Map', path: 'security-type-map', title: 'Security Type Map', component: StaticDataSecurityTypeMapComponent },
     ],
   },
   {

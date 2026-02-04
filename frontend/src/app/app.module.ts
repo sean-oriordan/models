@@ -7,10 +7,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { StaticDataClientsComponent } from './pages/static-data/clients/clients.component';
+import { StaticDataClientSecuritiesComponent } from './pages/static-data/client-securities/client-securities.component';
+import { StaticDataCountriesComponent } from './pages/static-data/countries/countries.component';
 import { StaticDataCurrencyCodesComponent } from './pages/static-data/currency-codes/currency-codes.component';
-import { StaticDataCountryCodesComponent } from './pages/static-data/country-codes/country-codes.component';
-import { StaticDataSecurityTypesComponent } from './pages/static-data/security-types/security-types.component';
-import { StaticDataHolidayCalendarComponent } from './pages/static-data/holiday-calendar/holiday-calendar.component';
+import { StaticDataFundsComponent } from './pages/static-data/funds/funds.component';
+import { StaticDataFundAdjustmentComponent } from './pages/static-data/fund-adjustment/fund-adjustment.component';
+import { StaticDataFundCentralBankRatesComponent } from './pages/static-data/fund-central-bank-rates/fund-central-bank-rates.component';
+import { StaticDataFundShareClassComponent } from './pages/static-data/fund-share-class/fund-share-class.component';
+import { StaticDataFundShareClassOngoingChargesComponent } from './pages/static-data/fund-share-class-ongoing-charges/fund-share-class-ongoing-charges.component';
+import { StaticDataFxRatesComponent } from './pages/static-data/fx-rates/fx-rates.component';
+import { StaticDataGlMappingsComponent } from './pages/static-data/gl-mappings/gl-mappings.component';
+import { StaticDataGroupExchangesComponent } from './pages/static-data/group-exchanges/group-exchanges.component';
+import { StaticDataHoldingsComponent } from './pages/static-data/holdings/holdings.component';
+import { StaticDataInflationRatesComponent } from './pages/static-data/inflation-rates/inflation-rates.component';
+import { StaticDataSecuritiesComponent } from './pages/static-data/securities/securities.component';
+import { StaticDataSecurityTypeMapComponent } from './pages/static-data/security-type-map/security-type-map.component';
 import { StewardshipEngagementComponent } from './pages/stewardship/engagement/engagement.component';
 import { StewardshipVotingComponent } from './pages/stewardship/voting/voting.component';
 import { StewardshipImpactComponent } from './pages/stewardship/impact/impact.component';
@@ -34,10 +46,22 @@ import { OperationsSupportComponent } from './pages/operations/support/support.c
   AppComponent,
   HeaderComponent,
   SidebarComponent,
+  StaticDataClientsComponent,
+  StaticDataClientSecuritiesComponent,
+  StaticDataCountriesComponent,
   StaticDataCurrencyCodesComponent,
-  StaticDataCountryCodesComponent,
-  StaticDataSecurityTypesComponent,
-  StaticDataHolidayCalendarComponent,
+  StaticDataFundsComponent,
+  StaticDataFundAdjustmentComponent,
+  StaticDataFundCentralBankRatesComponent,
+  StaticDataFundShareClassComponent,
+  StaticDataFundShareClassOngoingChargesComponent,
+  StaticDataFxRatesComponent,
+  StaticDataGlMappingsComponent,
+  StaticDataGroupExchangesComponent,
+  StaticDataHoldingsComponent,
+  StaticDataInflationRatesComponent,
+  StaticDataSecuritiesComponent,
+  StaticDataSecurityTypeMapComponent,
   StewardshipEngagementComponent,
   StewardshipVotingComponent,
   StewardshipImpactComponent,

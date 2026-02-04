@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-static-data-security-types',
-  templateUrl: './security-types.component.html',
-  styleUrls: ['./security-types.component.css'],
+  selector: 'app-static-data-countries',
+  templateUrl: './countries.component.html',
+  styleUrls: ['./countries.component.css'],
 })
-export class StaticDataSecurityTypesComponent implements OnInit {
+export class StaticDataCountriesComponent implements OnInit {
   parent = '';
   title = '';
   branch = '';
