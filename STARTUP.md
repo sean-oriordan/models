@@ -20,6 +20,15 @@ Service runs at `http://localhost:8080`.
 Health check: `http://localhost:8080/api/health`
 Currency codes: `http://localhost:8080/api/currency-codes`
 
+### Database (SQL Server)
+Set connection details via environment variables:
+
+```bash
+export DB_URL="jdbc:sqlserver://localhost:1433;databaseName=EffectiveYieldGB;encrypt=true;trustServerCertificate=true"
+export DB_USERNAME="sa"
+export DB_PASSWORD="your_password"
+```
+
 ## Frontend (Angular)
 
 ```bash
