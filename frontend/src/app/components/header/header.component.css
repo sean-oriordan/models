@@ -1,0 +1,61 @@
+.header {
+  height: 20vh;
+  min-height: 140px;
+  background: linear-gradient(#1e69b8, #0b4f93);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #083b73;
+}
+
+.title-row {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+}
+
+.branch-tabs {
+  display: flex;
+  gap: 0;
+  height: 32px;
+  background: #0a3f79;
+  border-top: 1px solid #0f4a86;
+}
+
+.branch-tab {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: #0f4a86;
+  border-right: 1px solid #083a6a;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.branch-tab:hover,
+.branch-tab:focus-visible {
+  background: #13569b;
+}
+
+.branch-tab.active {
+  background: var(--accent-yellow);
+  color: #142233;
+  border-color: #b09000;
+}
+
+.branch-tab:last-child {
+  border-right: none;
+}

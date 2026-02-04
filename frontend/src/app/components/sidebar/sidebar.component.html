@@ -1,0 +1,36 @@
+<aside class="sidebar">
+  <div class="sidebar-title">Navigation</div>
+
+  <div
+    class="parent-item"
+    *ngFor="let parent of nav; let i = index"
+    [class.is-open]="openIndex === i"
+    tabindex="0"
+    (mouseenter)="openParent(i)"
+    (mouseleave)="closeParent(i)"
+    (focusin)="openParent(i)"
+    (focusout)="onFocusOut($event, i)"
+  >
+    <div class="parent-row">
+      <span class="parent-label">{{ parent.label }}</span>
+    </div>
+
+    <div
+      class="side-tab"
+      role="menu"
+      [attr.aria-label]="parent.label + ' sections'"
+    >
+      <div class="side-tab-title">{{ parent.label }}</div>
+      <a
+        class="child-link"
+        *ngFor="let child of parent.children"
+        [routerLink]="['/', activeBranch, parent.slug, child.path]"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        (click)="onChildClick()"
+      >
+        {{ child.label }}
+      </a>
+    </div>
+  </div>
+</aside>

@@ -1,0 +1,15 @@
+<header class="header">
+  <div class="title-row">
+    <h1>Impact Funds</h1>
+  </div>
+  <nav class="branch-tabs" aria-label="Branch tabs">
+    <a
+      class="branch-tab"
+      *ngFor="let branch of branches"
+      [routerLink]="branchLink(branch.slug)"
+      [class.active]="activeBranch === branch.slug"
+    >
+      {{ branch.label }}
+    </a>
+  </nav>
+</header>

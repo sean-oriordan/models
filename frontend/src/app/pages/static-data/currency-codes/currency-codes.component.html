@@ -1,0 +1,14 @@
+<section class="child-page">
+  <div class="page-header">
+    <p class="eyebrow">{{ parent }}</p>
+    <h2>{{ pageTitle }}</h2>
+  </div>
+
+  <div class="raw-list">
+    <p class="row" *ngFor="let row of rowData">
+      {{ row.id }} | {{ row.currencyCode }} | {{ row.country }} | Updated By:
+      {{ row.updatedBy }} ({{ row.updatedOn }}) | Checked By: {{ row.checkedBy }}
+      ({{ row.checkedOn }})
+    </p>
+  </div>
+</section>
