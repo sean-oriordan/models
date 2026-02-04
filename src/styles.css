@@ -1,0 +1,24 @@
+:root {
+  /* Theme tokens: update these to restyle the UI quickly. */
+  --citibank-blue: #0b61b6;
+  --bg-white: #ffffff;
+  --sidebar-blue: #083564;
+  --accent-yellow: #f2c200;
+  --text-dark: #0e1a28;
+  --border-dark: #1b2d42;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', 'Helvetica Neue', sans-serif;
+  color: var(--text-dark);
+  background: #e5e9ef;
+}
+
+a {
+  color: inherit;
+}
