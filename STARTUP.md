@@ -29,6 +29,15 @@ export DB_USERNAME="sa"
 export DB_PASSWORD="your_password"
 ```
 
+### Windows Integrated Auth (SSPI)
+If you need the same SSPI setup as the C# app, use the `windows` profile:
+
+```bash
+export SPRING_PROFILES_ACTIVE=windows
+export DB_URL="jdbc:sqlserver://CSTFNEUDBDV01:2431;databaseName=EffectiveYieldGB;integratedSecurity=true;encrypt=true;trustServerCertificate=true"
+```
+
+See `backend/sqlserver/README.md` for the SQL Server JDBC auth DLL requirements.
 ## Frontend (Angular)
 
 ```bash

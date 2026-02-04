@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:sqlserver://CSTFNEUDBDV01:2431;databaseName=EffectiveYieldGB;integratedSecurity=true;encrypt=true;trustServerCertificate=true}
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
