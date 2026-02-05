@@ -1,4 +1,4 @@
-package com.impact.enterprise;
+package com.impact.enterprise.dto;
 
 public record CurrencyCodeDto(
     int id,

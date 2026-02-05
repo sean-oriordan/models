@@ -1,4 +1,4 @@
-package com.impact.enterprise;
+package com.impact.enterprise.repository;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.ParameterMode;
@@ -6,6 +6,7 @@ import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.StoredProcedureQuery;
 import java.util.ArrayList;
 import java.util.List;
+import com.impact.enterprise.dto.CurrencyCodeDto;
 import org.springframework.stereotype.Repository;
 
 @Repository

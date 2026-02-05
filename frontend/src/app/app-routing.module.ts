@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BRANCHES, NAV } from './navigation';
+import { BRANCHES, NAV } from './core/navigation';
 
 const defaultPath = `${BRANCHES[0].slug}/${NAV[0].slug}/${NAV[0].children[0].path}`;
 

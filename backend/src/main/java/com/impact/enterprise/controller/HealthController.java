@@ -1,4 +1,4 @@
-package com.impact.enterprise;
+package com.impact.enterprise.controller;
 
 import java.time.Instant;
 import java.util.Map;
